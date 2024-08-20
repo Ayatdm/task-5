@@ -1,0 +1,256 @@
+ html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aya task 5</title>
+    <link rel="stylesheet" href="task 5.css">
+</head>
+
+<body style="    background-color: rgb(255 255 255);">
+     <!-- <div class="img"><img src ="C:\Users\ayaht\Pictures\Screenshots\Screenshot 2024-08-18 185948.png" alt="logo"></div> -->
+    <div class="navbar">
+       <div class="logo">
+        <img src ="C:\Users\ayaht\Pictures\Screenshots\Screenshot 2024-08-20 170156.png" alt="logo">
+       </div>
+           <div class ="all-nav">
+            <a href="#" style="
+            color: #35ac64;
+            font-size: revert-layer;
+            text-shadow: 1px 2px 2px rgba(28,110,164,0.61);
+            "> EVERNOTE</a>
+          
+            <a href="#">Explore</a>
+            <a href="#">Web cipper</a>
+            <a href="#">Dowonload app</a>
+           </div>
+          <div class=" nav-right">
+            <a href="#" class="login-btn">login</a>
+                <button class="but-right">Try Evernote Business</button>
+            </div>
+          </div>
+    </div>
+     <div class="container">
+       <div class="right" style="float: right;">
+        <form style="
+        display: inline-grid;">
+        <h2> sign Up for free</h2>
+        <div class="s-side">
+            <button class="sign"> sign up free with Google</button>
+            <img src ="C:\Users\ayaht\Pictures\Screenshots\Screenshot 2024-08-20 174305.png" alt="logo">
+        </div>
+            <input class="email" placeholder="Email" required>
+            <input class="password" placeholder="Password" required>
+            <p class="p-right">By clicking Sign Up, I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.</p>
+            <button class="submit">Sign up for free</button>
+        </form>
+       </div>
+       <div class="left">
+        <h1>Meet Evernote, your second brain.</h1>
+        <p style="font-family: system-ui; margin-top: -40px;">Capture, organize, and share notes from anywhere. Your best ideas are always with you and always in sync.</p>
+       </div>
+        </div>
+     </div>
+</body>
+
+</html>
+
+
+
+
+
+
+css
+.navbar {
+    position: relative;
+    background-color: white;
+    padding: 15px 20px;
+    overflow: hidden;
+    margin-top: -0.4%;
+    box-shadow: 3px 19px 75px 7px rgb(177 177 177 / 43%);
+}
+
+.logo img {
+    float: left;
+    margin-left: 100px;
+    height: 48px;
+}
+
+.all-nav {
+    float: left;
+    margin-left: 4px;
+   text-decoration: none;
+}
+.nav-right {
+    float: right;
+}
+
+
+
+.all-nav a {
+    margin-right: 37px;
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    line-height: 40px;;
+}
+.nav-right a.login-btn{
+    text-decoration: none;
+    color: #498b46;
+    font-size: 17px;
+    padding: 0px 28px;
+    border: 2px solid #eff3f5;
+    border-radius: 3px;
+    line-height: 30px;
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.lang{
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+.body{
+    background-color: rgba(165, 30, 30, 0.936);
+    position: relative;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.container {
+    max-width: 100%;;
+    margin: 0 auto;
+    padding: 20px;
+    display: block;
+    position: relative;
+}
+
+
+.container h1{
+    font-size: 400%;
+    font-weight: 800;
+    font-weight: bolder;
+    margin-top: 12%;
+    font-family: system-ui;
+    margin-bottom: 59px;
+    
+}
+.container img{
+    float: right;
+    margin-right: 20%;
+    margin-right: 20%;
+    padding-top: 3%;
+
+}
+.container p{
+    font-size: large;
+    
+}
+.footer{
+   position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 10px
+}
+.footer a.go{
+     
+    margin-top: -2.5%;
+    float: right;
+    margin-right: 3%;
+    color: darkturquoise;
+    font-size: larger;
+}
+
+.container a.watch-button{
+    display: block;
+    margin-bottom: 10px;
+    margin-top: -1%;
+    font-size: larger;
+    color: #0680fc;
+    text-decoration: none;
+}
+    
+.container .right {
+    float: right;
+    margin-top: -1%;
+    margin-right: 9%;
+    margin-left: 10%;
+}
+
+.sign{
+    background: white;
+    padding: 2%;
+    border: 2px solid rgb(208 209 209 / 54%);
+    margin-bottom: 14%;
+    width: 432px;
+    font-size: larger;
+    font-weight: 700;
+}
+.right .email{
+    background: #eff2f7;
+    padding: 3%;
+    margin-bottom: 17px;
+    border: 0px solid rgba(28, 110, 164, 0.54);
+    width: 400px;
+}
+
+.right .password{
+    background: #eff2f7;
+    padding: 3%;
+    margin-bottom: 17px;
+    border: 0px solid rgba(28, 110, 164, 0.54);
+    width: 400px;
+}
+
+.right .submit{
+    background: #30be5f;
+    padding: 3.5%;
+    margin-bottom: 17px;
+    border: 0px solid rgba(28, 110, 164, 0.54);
+    font-size: larger;
+    color: aliceblue;
+    border-radius: 4px;
+    width: 434px;
+    box-shadow: 1px 8px 45px 7px rgb(160 160 160 / 61%);
+}
+
+.right .p-right{
+    font-family: ui-monospace;
+    margin-right: 21%;
+    font-size: large;
+}
+.right h2{
+    font-size: 303%;
+    font-family: system-ui;
+}
+.container .left{
+    margin-left: 8%;
+}
+.nav-right .but-right{
+    border: 3px solid rgb(23 22 22 / 84%);
+    margin-left: 45px;
+    padding: 13px;
+    width: 218px;
+    margin-right: 37px;
+    background-color: white;
+    border-radius: 7px;
+    font-size: unset;
+    font-family: auto;
+    font-style: revert-layer;
+    font-weight: bolder;
+}
+ .container .left p{
+    margin-top: -25px;
+    font-size: 126%;
+}
+.container .s-side img{
+    float: left;
+    position: absolute;
+    top: 107px;
+    left: 56%;
+    height: 40px;
+}
